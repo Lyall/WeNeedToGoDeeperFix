@@ -13,7 +13,7 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 - Run Biped once to generate a config file located at Biped/BepinEx/config/WeNeedToGoDeeperFix.cfg
 
 ## Configuration
-- See the generated WeNeedToGoDeeperFix.cfg to adjust various aspects of the plugin.
+- See the generated config file WeNeedToGoDeeperFix.cfg to adjust various aspects of the plugin.
 
 ## Known Issues
 Please report any issues you see and I'll do my best to fix them.
