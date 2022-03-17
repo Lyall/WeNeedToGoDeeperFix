@@ -10,7 +10,7 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 - Extract the **BepinEx zip** to the main We Need To Go Deeper game directory (for example - "steamapps/common/WeNeedToGoDeeper").
 - Grab the latest release of WeNeedToGoDeeperFix from https://github.com/Lyall/WeNeedToGoDeeperFix/releases
 - Extract the **WeNeedToGoDeeperFix zip** in to the Biped game directory.
-- Run We Need To Go Deeper once to generate a config file located at **Biped/BepinEx/config/WeNeedToGoDeeperFix.cfg**
+- Run We Need To Go Deeper once to generate a config file located at **WeNeedToGoDeeper/BepinEx/config/WeNeedToGoDeeperFix.cfg**
 
 ## Configuration
 - See the generated config file to adjust various aspects of the plugin.
