@@ -18,7 +18,9 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 ## Known Issues
 Please report any issues you see and I'll do my best to fix them.
 
-
 ## Screenshots
 
 ![gif](https://user-images.githubusercontent.com/695941/158790693-25aee713-3072-4734-9c12-c98664166872.gif)
+
+## Credits
+Thank you to [PhantomGamers](https://github.com/PhantomGamers) for helping out significantly on writing this.
