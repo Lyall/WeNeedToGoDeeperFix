@@ -17,7 +17,7 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 
 ## Known Issues
 Please report any issues you see and I'll do my best to fix them.
-- Rarely you may end up in a situation where UI scaling is incorrect. In that case clicking on the video options in the main menu should fix it.
+- Rarely you may end up in a situation where UI scaling is incorrect. In that case, clicking on the video options in the main menu should fix it.
 
 ## Screenshots
 
