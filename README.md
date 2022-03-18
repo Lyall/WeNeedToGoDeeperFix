@@ -17,7 +17,7 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 
 ## Known Issues
 Please report any issues you see and I'll do my best to fix them.
-- On first startup you may end up in a situation where UI scaling is incorrect. To fix this, either change resolution ingame or restart the game.
+- On first startup you may end up in a situation where UI scaling is incorrect. To fix this, either change resolution or restart the game.
 
 ## Screenshots
 
