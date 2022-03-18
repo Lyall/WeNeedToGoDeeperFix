@@ -22,7 +22,8 @@ Please report any issues you see and I'll do my best to fix them.
 ## Screenshots
 
 ![gif](https://user-images.githubusercontent.com/695941/158790693-25aee713-3072-4734-9c12-c98664166872.gif)
-![ezgif-4-a10ae11cad](https://user-images.githubusercontent.com/695941/159004980-b0a9c424-7550-466c-b3f0-c3c4b1642aa8.gif)
+![ezgif-4-482ba53150](https://user-images.githubusercontent.com/695941/159005118-25e06c61-a557-45f2-b6fb-614030eedf61.gif)
+
 
 
 ## Credits
