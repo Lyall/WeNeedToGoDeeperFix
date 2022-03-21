@@ -105,6 +105,15 @@ namespace WeNeedToGoDeeperFix
     [HarmonyPatch]
     public class Patches
     {
+        // Disable cheat detection
+        [HarmonyPatch(typeof(CheatCheckerBehavior), "CheatingDetected")]
+        [HarmonyPrefix]
+        public static bool RemoveCheatDetection()
+        {
+            WNTGDFix.Log.LogInfo("Cheat detection disabled.");
+            return false;
+        }
+
         // Set Screen Resolution
         [HarmonyPatch(typeof(MainMenuManagerBehavior), "Start")]
         [HarmonyPostfix]
