@@ -23,7 +23,5 @@ Please report any issues you see and I'll do my best to fix them.
 ![gif](https://user-images.githubusercontent.com/695941/158790693-25aee713-3072-4734-9c12-c98664166872.gif)
 ![ezgif-4-482ba53150](https://user-images.githubusercontent.com/695941/159005118-25e06c61-a557-45f2-b6fb-614030eedf61.gif)
 
-
-
 ## Credits
 Thank you to [PhantomGamers](https://github.com/PhantomGamers) for helping out significantly on writing this.

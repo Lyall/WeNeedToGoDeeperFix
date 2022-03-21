@@ -76,7 +76,8 @@ namespace WeNeedToGoDeeperFix
         // UI Fix
         private void OnSceneLoaded(Scene arg0, LoadSceneMode arg1) // Run the fix every time a scene is loaded
         {
-            var NewAspectRatio = (float)OptionsData.screenWidth / (float)OptionsData.screenHeight;
+            float NewAspectRatio = (float)OptionsData.screenWidth / (float)OptionsData.screenHeight;
+            if (WNTGDFix.CustomResolution.Value) { NewAspectRatio = WNTGDFix.DesiredResolutionX.Value / WNTGDFix.DesiredResolutionY.Value; }
             var AspectMultiplier = NewAspectRatio / (16f / 9f);
             var DefaultReferenceResolution = new Vector2(800, 600);
             var NewReferenceResolution = new Vector2(AspectMultiplier * 800, 600);
