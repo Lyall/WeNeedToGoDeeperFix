@@ -1,4 +1,4 @@
-# WeNeedToGoDeeperFix
+# We Need To Go Deeper Fix
 
 This BepInEx plugin for the game We Need To Go Deeper adds support for:
 - Playing the game in any ultrawide aspect ratio such as 21:9, 32:9 or even higher.
