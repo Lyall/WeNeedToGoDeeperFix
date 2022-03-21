@@ -7,9 +7,9 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 
 ## Installation
 - Grab the latest x64 version of BepinEx from https://github.com/BepInEx/BepInEx/releases
-- Extract the **BepinEx zip** to the main We Need To Go Deeper game directory (for example - "steamapps/common/WeNeedToGoDeeper").
+- Extract the contents of **BepinEx zip** to the main We Need To Go Deeper game directory (for example - "steamapps/common/WeNeedToGoDeeper").
 - Grab the latest release of WeNeedToGoDeeperFix from https://github.com/Lyall/WeNeedToGoDeeperFix/releases
-- Extract the **WeNeedToGoDeeperFix zip** in to the We Need To Go Deeper game directory.
+- Extract the contents of **WeNeedToGoDeeperFix zip** in to the We Need To Go Deeper game directory.
 - Run We Need To Go Deeper once to generate a config file located at **WeNeedToGoDeeper/BepinEx/config/WeNeedToGoDeeperFix.cfg**
 
 ## Configuration
@@ -17,11 +17,14 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 
 ## Known Issues
 Please report any issues you see and I'll do my best to fix them.
-- Rarely you may end up in a situation where UI scaling is incorrect. In that case, clicking on the video options in the main menu should fix it.
+- On first startup you may end up in a situation where UI scaling is incorrect. To fix this, either change resolution or restart the game.
 
 ## Screenshots
 
 ![gif](https://user-images.githubusercontent.com/695941/158790693-25aee713-3072-4734-9c12-c98664166872.gif)
+![ezgif-4-482ba53150](https://user-images.githubusercontent.com/695941/159005118-25e06c61-a557-45f2-b6fb-614030eedf61.gif)
+
+
 
 ## Credits
 Thank you to [PhantomGamers](https://github.com/PhantomGamers) for helping out significantly on writing this.
