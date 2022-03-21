@@ -65,7 +65,6 @@ namespace WeNeedToGoDeeperFix
                                 true,
                                 "Set to true for fullscreen or false for windowed.");
 
-
             SceneManager.sceneLoaded += OnSceneLoaded;
 
             Harmony.CreateAndPatchAll(typeof(Patches));
@@ -77,7 +76,7 @@ namespace WeNeedToGoDeeperFix
         // UI Fix
         private void OnSceneLoaded(Scene arg0, LoadSceneMode arg1) // Run the fix every time a scene is loaded
         {
-            var NewAspectRatio = (float)Screen.width / (float)Screen.height;
+            var NewAspectRatio = (float)OptionsData.screenWidth / (float)OptionsData.screenHeight;
             var AspectMultiplier = NewAspectRatio / (16f / 9f);
             var DefaultReferenceResolution = new Vector2(800, 600);
             var NewReferenceResolution = new Vector2(AspectMultiplier * 800, 600);
@@ -142,7 +141,6 @@ namespace WeNeedToGoDeeperFix
 
                 if (WNTGDFix.UIFix.Value && NewAspectRatio > 1.8)
                 {
-                    Screen.SetResolution(width, height, Screen.fullScreen);
                     var CanvasObjects = GameObject.FindObjectsOfType<UnityEngine.UI.CanvasScaler>();
                     foreach (var GameObject in CanvasObjects)
                     {
@@ -152,7 +150,6 @@ namespace WeNeedToGoDeeperFix
                 }
                 else // Write back the default reference resolution
                 {
-                    Screen.SetResolution(width, height, Screen.fullScreen);
                     var CanvasObjects = GameObject.FindObjectsOfType<UnityEngine.UI.CanvasScaler>();
                     foreach (var GameObject in CanvasObjects)
                     {
