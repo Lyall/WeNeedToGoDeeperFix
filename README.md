@@ -25,3 +25,4 @@ Please report any issues you see and I'll do my best to fix them.
 
 ## Credits
 Thank you to [PhantomGamers](https://github.com/PhantomGamers) for helping out significantly on writing this.
+[BepinEx](https://github.com/BepInEx/BepInEx) which is licensed under GNU Lesser General Public License v2.1.
