@@ -24,5 +24,5 @@ Please report any issues you see and I'll do my best to fix them.
 ![ezgif-4-482ba53150](https://user-images.githubusercontent.com/695941/159005118-25e06c61-a557-45f2-b6fb-614030eedf61.gif)
 
 ## Credits
-[PhantomGamers](https://github.com/PhantomGamers) who helped out significantly on writing this.\
-[BepinEx](https://github.com/BepInEx/BepInEx) is licensed under the GNU Lesser General Public License v2.1.
+- [PhantomGamers](https://github.com/PhantomGamers) who helped out significantly on writing this.
+- [BepinEx](https://github.com/BepInEx/BepInEx) is licensed under the GNU Lesser General Public License v2.1.
