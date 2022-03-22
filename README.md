@@ -6,6 +6,7 @@ This BepInEx plugin for the game We Need To Go Deeper adds support for:
 - Setting an arbitrary resolution.
 
 ## Installation
+- Grab the latest release of WeNeedToGoDeeperFix from https://github.com/Lyall/WeNeedToGoDeeperFix/releases
 - Extract the contents of the WeNeedToGoDeeperFix  zip in to the game directory (e.g. steamapps/common/WeNeedToGoDeeper).
 - Run the game once to generate a config file located at **WeNeedToGoDeeper/BepinEx/config/WeNeedToGoDeeperFix.cfg**
 
