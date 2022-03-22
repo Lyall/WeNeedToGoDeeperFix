@@ -32,8 +32,8 @@ jobs:
         artifacts: "${{ github.event.repository.name }}_${{ github.event.inputs.version }}.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ github.event.inputs.version }}
-        name: "${{ github.event.repository.name }} ${{ github.event.inputs.version }}"
+        name: "${{ github.event.inputs.version }}"
         draft: true
-        generateReleaseNotes: false
+        generateReleaseNotes: true
         bodyFile: "release_body.md"
         artifactErrorsFailBuild: true
