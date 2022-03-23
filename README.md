@@ -1,4 +1,6 @@
 # We Need To Go Deeper Fix
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W01UAI9)</br>
+[![Github All Releases](https://img.shields.io/github/downloads/Lyall/WeNeedToGoDeeperFix/total.svg)]()
 
 This BepInEx plugin for the game We Need To Go Deeper adds support for:
 - Playing the game in any ultrawide aspect ratio such as 21:9, 32:9 or even higher.
